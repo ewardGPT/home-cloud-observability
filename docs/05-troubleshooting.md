@@ -18,11 +18,11 @@ Expected: all services show **Up** (no restarting/exited containers).
 ### 1.2 Check logs for the failing service
 
 ```bash
-docker logs --tail=200 grafana
-docker logs --tail=200 prometheus
-docker logs --tail=200 loki
-docker logs --tail=200 promtail
-docker logs --tail=200 uptime-kuma
+docker logs --tail=200 grafana (or first 3 digits of the docker pin EX: 2b3)
+docker logs --tail=200 prometheus (or first 3 digits of the docker pin EX: 2b3)
+docker logs --tail=200 loki (or first 3 digits of the docker pin EX: 2b3)
+docker logs --tail=200 promtail (or first 3 digits of the docker pin EX: 2b3)
+docker logs --tail=200 uptime-kuma (or first 3 digits of the docker pin EX: 2b3)
 ```
 
 ### 1.3 Confirm ports are listening
