@@ -22,8 +22,12 @@ It provides metrics, logs, uptime monitoring, and alert notifications for my hom
 See `docs/01-architecture.md`
 
 ## Screenshots
-Add screenshots to `/screenshots` and link them here:
-- Grafana dashboards
+![Proxmox Node 1 Grafana Dashboard](.screenshots/pve_grafana.png)
+![Proxmox Node 2 Grafana Dashboard](.screenshots/pve-lab_grafana.png)
+![Uptime Kuma Dashboard](.screenshots/uptime_kuma.png)
+![Prometheus Tunnel](.screenshots/prometheus.png)
+![Loki Report](.screenshots/loki.png)
+
 - Prometheus targets page
 - Uptime Kuma status page
 
